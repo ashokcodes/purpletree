@@ -1,11 +1,22 @@
 :root{
     --main: linear-gradient(to right, #383638 , #383641);;
     --accent: #24282A;
+    --first: hsla(0,0%,100%,.6);
+    --second:#383641;
 }
 
 body{
     font-size: 15px;
     font-family: 'Lato', sans-serif;
+    color: var(--first);
+}
+
+.text-fisrt{
+    color: var(--first);
+}
+
+.bg-fisrt{
+    background: var(--first);
 }
 
 .stand-out{
@@ -31,3 +42,26 @@ body{
 ._content{
     margin-left: 20rem;
 } */
+
+
+.card-text{
+    color: var(--first);
+}
+
+.card-title{
+    color: var(--light);
+}
+
+
+.bg-second{
+    background: var(--second) !important;
+}
+
+.text-second{
+    color: var(--second) !important;
+}
+
+.btn-shadow{
+    background: rgba(0,0,0,.2);
+    color: var(--light);
+}
