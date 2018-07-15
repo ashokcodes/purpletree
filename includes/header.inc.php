@@ -8,9 +8,9 @@
     <title>Ashok Mohanakumar</title>
     <link href="https://fonts.googleapis.com/css?family=Paytone+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/style.css">
 </head>
 
 <body class="bg-main text-light">
@@ -43,39 +43,3 @@
                     </ul>
                 </div>
             </nav>
-
-            <div class="row" style="margin-top: 10rem;">
-                <div class="col-sm-12">
-                    <!-- <big class="text-light">Hi! I'm a software developer from India!</big> -->
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="card bg-transparent">
-                                <div class="card-body">
-                                    <h5 class="card-title">Simple Chatbot UI</h5>
-                                    <p class="card-text">Simple chatbot using <span class="text-warning"> jQuery</span> and <span class="text-warning">html</span></p>
-                                    <a href="#" class="btn btn-shadow rounded-0">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="card bg-transparent">
-                                <div class="card-body">
-                                    <h5 class="card-title">Special title treatment</h5>
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    <a href="#" class="btn btn-first rounded-0">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-<script src="jquery-3.2.1.slim.min.js"></script>
-<script src="bootstrap.min.js"></script>
-
-</body>
-
-</html>
