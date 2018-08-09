@@ -1,4 +1,4 @@
 <?php
 
 
-    define("BASE_URL", "http://ashok.local/");
+    define("BASE_URL", "http://purpletree.local/");
