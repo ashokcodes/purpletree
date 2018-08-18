@@ -1,6 +1,6 @@
 <?php
     require "./Config/init.php";
-    require "./includes/header.inc.php";
+    require "./Includes/header.inc.php";
     require "./Controller/Controller.php";
     require "./Router/Router.php";
 

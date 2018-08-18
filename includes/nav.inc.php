@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="/"><img src="<?= BASE_URL ?>assets/img/favicon.png"><strong style="position:relative;top:.25rem;color:#311795;"> PURPLETREE</strong></a>
+  <a class="navbar-brand" href="/"><img src="<?= BASE_URL ?>Assets/img/favicon.png"><strong style="position:relative;top:.25rem;color:#311795;"> PURPLETREE</strong></a>
 
   <div class="collapse navbar-collapse">
     <ul class="navbar-nav ml-auto">
